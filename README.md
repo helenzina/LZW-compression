@@ -37,25 +37,19 @@ LZW compression works by reading a sequence of symbols, grouping the symbols int
  
 <p>Please follow the following steps for successful installation:</p>
 
-1. Install <a href="https://www.jetbrains.com/idea/download/?section=windows">IntelliJ Community IDEA</a>. 
-   
-2. Clone the repo
+1. **Clone the repo**.
    ```sh
-   gh repo clone helenzina/LZW-Pixel-Compression
+   git clone https://github.com/helenzina/LZW-Pixel-Compression
    ```
-3. There's also an .exe application available to run it instantly without using any IDE at the next section. 
+2. There's also an .exe application available to run it instantly without using any IDE at the next section. 
 
 ## How To Run
 
 ### Using IntelliJ Community IDEA
 
-To run LZW Compression, follow these steps:
-
 **Open the folder of your local repository in IntelliJ Community IDEA, select jdk-21 for the compiler and run it**. 
 
 ### Using .exe
-
-To run LZW Compression, follow these steps:
 
 1. <b>Download the .exe application (<a href="https://github.com/helenzina/LZW-Pixel-Compression/blob/main/out/artifacts/LZWcomp_jar/LZWcomp-x86_64.exe 
 ">LZWcomp-x86_64.exe</a>)</b>.
@@ -106,7 +100,7 @@ Here are some examples of the algorithm running:
 
 <td align="center">
 <a href="https://github.com/helenzina">
-<img src="https://avatars.githubusercontent.com/u/128386591?v=4" width="100px" alt="Helen Zina"/><br>
+<img src="https://avatars.githubusercontent.com/u/128386591?v=4" width=100 alt="Helen Zina"/><br>
 <sub>
 <b>Helen Zina (Me)</b>
 </sub>
@@ -130,5 +124,6 @@ If you have any questions or suggestions, feel free to reach out to me:
 
 The resources that helped me through this whole process were the following:
 
-- [GeeksForGeeks](https://www.geeksforgeeks.org/lzw-lempel-ziv-welch-compression-technique/)
+- [GeeksForGeeks - LZW (Lempel–Ziv–Welch) Compression technique](https://www.geeksforgeeks.org/lzw-lempel-ziv-welch-compression-technique/)
+
 
